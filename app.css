@@ -204,3 +204,15 @@ body {
     -o-transform: rotate(-5deg);
     transform: rotate(-5deg);
 }
+
+.line::before {
+    content: "";
+    justify-content: center;
+    position: absolute;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    top: 0;
+    left: 0;
+    border-top: 1px solid black;
+}
