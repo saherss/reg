@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('./fonts/Raleway-Regular.woff2') format('woff2'),
+        url('./fonts/Raleway-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Condensed';
+    src: url('./fonts/DINCondensed-Bold.woff2') format('woff2'),
+        url('./fonts/DINCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apple Chancery';
+    src: url('./fonts/Apple-Chancery.woff2') format('woff2'),
+        url('./fonts/Apple-Chancery.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./fonts/Helvetica-Bold.woff2') format('woff2'),
+        url('./fonts/Helvetica-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.font-ral {
+    font-family: 'Raleway';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-apple {
+    font-family: 'Apple Chancery';
+    font-weight: 100;
+    font-style: normal;
+}
+
+.font-din {
+    font-family: 'DIN Condensed';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.font-din-light {
+    font-family: 'DIN Condensed';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-helv {
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: "Helvetica";
+}
+
+._114868 {
+    color: #114868;
+}
+
+.z--1 {
+    z-index: -1;
+}
+
+.bgs-yellow {
+    background-color: #ffe600;
+}
+
+.h-96 {
+    height: 24rem;
+}
+
+.h-100 {
+    height: 25rem;
+}
+
+.h-104 {
+    height: 26rem;
+}
+
+.h-108 {
+    height: 27rem;
+}
+
+.h-112 {
+    height: 28rem;
+}
+
+.h-116 {
+    height: 29rem;
+}
+
+.h-120 {
+    height: 30rem;
+}
+
+.w-96 {
+    width: 24rem;
+}
+
+.w-100 {
+    width: 25rem;
+}
+
+.w-104 {
+    width: 26rem;
+}
+
+.w-108 {
+    width: 27rem;
+}
+
+.w-112 {
+    width: 28rem;
+}
+
+.w-116 {
+    width: 29rem;
+}
+
+.w-120 {
+    width: 30rem;
+}
+
+.blue-button {
+    background: rgba(83, 203, 253, 1);
+    background: -moz-linear-gradient(45deg, rgba(83, 203, 253, 1) 0%, rgba(170, 230, 255, 1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(83, 203, 253, 1)), color-stop(100%, rgba(170, 230, 255, 1)));
+    background: -webkit-linear-gradient(45deg, rgba(83, 203, 253, 1) 0%, rgba(170, 230, 255, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(83, 203, 253, 1) 0%, rgba(170, 230, 255, 1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(83, 203, 253, 1) 0%, rgba(170, 230, 255, 1) 100%);
+    background: linear-gradient(45deg, rgba(83, 203, 253, 1) 0%, rgba(170, 230, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#53cbfd', endColorstr='#aae6ff', GradientType=1);
+}
+
+.yellow-button {
+    background: rgba(254, 254, 78, 1);
+    background: -moz-linear-gradient(top, rgba(254, 254, 78, 1) 0%, rgba(254, 184, 24, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254, 254, 78, 1)), color-stop(100%, rgba(254, 184, 24, 1)));
+    background: -webkit-linear-gradient(top, rgba(254, 254, 78, 1) 0%, rgba(254, 184, 24, 1) 100%);
+    background: -o-linear-gradient(top, rgba(254, 254, 78, 1) 0%, rgba(254, 184, 24, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(254, 254, 78, 1) 0%, rgba(254, 184, 24, 1) 100%);
+    background: linear-gradient(to bottom, rgba(254, 254, 78, 1) 0%, rgba(254, 184, 24, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefe4e', endColorstr='#feb818', GradientType=0);
+}
+
+.green-button {
+    background: rgb(71, 249, 155);
+    background: linear-gradient(90deg, rgba(71, 249, 155, 1) 0%, rgba(106, 221, 108, 1) 100%);
+}
+
+.purble-button {
+    background: rgba(83, 73, 169, 1);
+    background: -moz-linear-gradient(left, rgba(83, 73, 169, 1) 0%, rgba(73, 106, 173, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(83, 73, 169, 1)), color-stop(100%, rgba(73, 106, 173, 1)));
+    background: -webkit-linear-gradient(left, rgba(83, 73, 169, 1) 0%, rgba(73, 106, 173, 1) 100%);
+    background: -o-linear-gradient(left, rgba(83, 73, 169, 1) 0%, rgba(73, 106, 173, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(83, 73, 169, 1) 0%, rgba(73, 106, 173, 1) 100%);
+    background: linear-gradient(to right, rgba(83, 73, 169, 1) 0%, rgba(73, 106, 173, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5349a9', endColorstr='#496aad', GradientType=1);
+}
+
+.yellow-div {
+    min-height: 9rem;
+    background-color: #ffe600;
+}
+
+.blue-div {
+    color: white;
+    min-height: 9rem;
+    background-color: #114868;
+}
+
+.light-indigo {
+    color: #114868;
+}
+
+.strikethrough {
+    position: relative;
+}
+
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    right: 0;
+    border-top: 1px solid;
+    border-color: red;
+
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}

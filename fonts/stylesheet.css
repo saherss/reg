@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-Regular.woff2') format('woff2'),
+        url('Raleway-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Condensed';
+    src: url('DINCondensed-Bold.woff2') format('woff2'),
+        url('DINCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
