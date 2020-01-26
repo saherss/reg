@@ -9,11 +9,8 @@
 
     <link href="https://vjs.zencdn.net/7.6.6/video-js.css" rel="stylesheet" />
     <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
 
     <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/lightslider.js"></script>
 
     <link href="./app.css" rel="stylesheet">
     <title>Ольги Ханафи и Саши Шефер</title>
@@ -21,30 +18,47 @@
 
 <body class="w-full text-gray-900 bg-white">
     <div class="gray-100 z--2 shadow-2xl">
-        <header
-            class="w-full px-10 py-4 font-semibold flex justify-around items-center bg-white leading-tight justify-start sm:justify-start">
-            <img class="" src="https://i.ibb.co/XXJJ8rT/logo.png" alt="Logo">
-            <div class="text-2xl sm:pl-8">Школа <br class="sm:hidden" /> Ольги Ханафи <br class="sm:hidden" /> и Саши
-                Шефер
+        <header class="w-full flex justify-between items-center ">
+            <div
+                class="px-10 py-4 font-semibold flex justify-around items-center bg-white leading-tight justify-start sm:justify-between">
+                <img class="" src="https://i.ibb.co/XXJJ8rT/logo.png" alt="Logo">
+                <div class="text-2xl sm:pl-8">Школа <br class="sm:hidden" /> Ольги Ханафи <br class="sm:hidden" /> и
+                    Саши
+                    Шефер
+                </div>
+            </div>
+            <div class="hidden  justify-center items-center pr-6">
+                <button class="mt-4 px-2 w-48 py-1 rounded-lg blue-button light-indigo">
+                    <a href="tel:+79096232324">
+                        <i class="fa fa-phone"></i>
+                        <span class="ml-1">+7 (916) 331-35-34</span>
+                    </a>
+                </button>
+                <button class="ml-4 mt-4 w-48 py-1 leading-tight block rounded-lg green-button light-indigo">
+                    <a href="https://api.whatsapp.com/send?phone=79096232324">
+                        <i class="fa fa-whatsapp"></i>
+                        <span class="ml-1">Whatsapp</span>
+                    </a>
+                </button>
             </div>
         </header>
 
         <!-- 1 -->
         <section class="relative w-full px-8 pt-2 bg-gray-100 sm:px-20 md:px-32 lg:px-64">
-            <img class="w-40  absolute bottom-0 right-0 sm:w-56 sm:mr-20 md:w-64"
+            <img class="w-40  absolute bottom-0 right-0 sm:w-56 sm:mr-20 md:w-64 "
                 src="https://i.ibb.co/zsQX33Y/olga-and-sasha-2.png">
             <div class="pt-4 leading-tight sm:pt-8">
                 <p class="font-din text-5xl light-indigo font-bold sm:text-6xl">Базовый курс</p>
                 <p class="text-xl sm:text-2xl">20 - 27 февраля 2020 г.</p>
-                <button class="mt-6 w-56 py-1 rounded-lg blue-button light-indigo sm:w-64">
-                    <a href="tel:+79163313534">
+                <button class="mt-6 w-56 py-1 rounded-lg blue-button light-indigo sm:w-64 ">
+                    <a href="tel:+79096232324">
                         <i class="fa fa-phone"></i>
                         <span class="ml-1 sm:text-xl">+7 (916) 331-35-34</span>
                     </a>
                 </button>
 
                 <button class="mt-4 w-56 py-1 leading-tight block rounded-lg green-button light-indigo sm:w-64">
-                    <a href="https://api.whatsapp.com/send?phone=79163313534">
+                    <a href="https://api.whatsapp.com/send?phone=79096232324">
                         <i class="fa fa-whatsapp"></i>
                         <span class="ml-1 sm:text-2xl">Whatsapp</span>
                     </a>
@@ -63,6 +77,37 @@
 
             </div>
         </section>
+
+
+
+
+
+
+
+        <!-- <section class="hidden md:block w-full flex flex-col justify-between items-center">
+            <div class="pt-4 leading-tight sm:pt-8">
+                <p class="font-din text-5xl light-indigo font-bold sm:text-6xl">Базовый курс</p>
+                <p class="text-xl sm:text-2xl">20 - 27 февраля 2020 г.</p>
+            </div>
+            <img class="w-96" src="https://i.ibb.co/zsQX33Y/olga-and-sasha-2.png">
+            <div>
+                <p class="pt-8 font-bold sm:text-2xl">
+                    Научитесь <br />
+                    перманентному <br />
+                    макияжу за неделю
+                </p>
+                <p class="pt-4 pb-8 text-xs font-hairline font-semibold sm:text-lg">
+                    и зарабатывайте <br />
+                    от 100 000 рублей в месяц
+                </p>
+            </div>
+        </section>
+
+ -->
+
+
+
+
         <!-- 2 -->
         <section class="pt-6 px-4 bg-white">
             <p class="light-indigo font-bold text-center font-din text-4xl sm:text-6xl">
@@ -153,8 +198,7 @@
                 сразу после обучения
             </p>
             <div class="w-full  my-6 bg-gray-600 shadow-2xl bg-gray-800">
-                <div class="max-600 slider flex justify-center items-center " 
-                style="	margin: 0 auto !important; 
+                <div class="max-600 slider flex justify-center items-center " style="	margin: 0 auto !important; 
                 float: none !important;">
                     <ul id="lightSlider">
                         <img src="./img/rab_1.png" />
@@ -182,9 +226,7 @@
         <section class="relative flex justify-center items-center bg-white sm:mt-12">
             <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
                 poster="./img/bg-1.jpg" data-setup="{}">
-                <source
-                    src="./img/video-2.mp4"
-                    type="video/mp4" />
+                <source src="./img/video-2.mp4" type="video/mp4" />
                 <p class="vjs-no-js">
                     To view this video please enable JavaScript, and consider upgrading to a
                     web browser that
@@ -236,24 +278,27 @@
         <section class="py-10 bg-gray-100">
             <p class="text-center text-2xl sm:text-4xl">Этот курс для тех, кто...</p>
             <div
-                class="mt-8 px-6 flex flex-col justify-center items-baseline sm:px-20 sm:text-xl md:flex-row md:justify-between">
-                <div class="flex justify-center items-center md:flex-grow-0 md:flex-shronk-0">
+                class="mt-8 px-6 flex flex-col justify-center items-baseline sm:px-20 sm:text-xl sm:flex-row sm:justify-between">
+                <div
+                    class="flex justify-center items-center text-center sm:flex-grow-0 sm:flex-shronk-0 sm:flex-col sm:w-2/5">
                     <img src="./img/roog.png">
-                    <p class="px-2 ">
+                    <p class="px-2  sm:pt-8">
                         Уже работает в Beauty индустрии и хочет расти
                         в других направлениях
                     </p>
                 </div>
-                <div class="mt-6 flex justify-center items-center md:flex-grow-0 md:flex-shronk-0">
+                <div
+                    class="mt-6 flex justify-center items-center text-center sm:flex-grow-0 sm:flex-shronk-0 sm:flex-col">
                     <img src="./img/bag.png">
-                    <p class="px-2">
+                    <p class="px-2 sm:pt-8">
                         Хочет больше
                         зарабатывать
                     </p>
                 </div>
-                <div class="mt-6 flex justify-center items-center md:flex-grow-0 md:flex-shronk-0">
+                <div
+                    class="mt-6 flex justify-center items-center text-center sm:flex-grow-0 sm:flex-shronk-0 sm:flex-col">
                     <img src="./img/tag.png">
-                    <p class="px-2">
+                    <p class="px-2 sm:pt-8">
                         Мечтает
                         работать на себя
                     </p>
@@ -311,20 +356,24 @@
             </div>
 
             <div class="text-sm sm:text-lg md:flex md:flex-wrap md:justify-center md:items-center">
-                <div class="my-2 mx-6 px-4 py-4 bgs-yellow text-center flex justify-center items-center sm:my-4 md:w-1/3 md:h-40">
+                <div
+                    class="my-2 mx-6 px-4 py-4 bgs-yellow text-center flex justify-center items-center sm:my-4 md:w-1/3 md:h-40">
                     <p class="font-thin">6 работ в портфолио</p>
                 </div>
 
-                <div class="my-2 mx-6 px-4 py-4 bgs-yellow text-center flex justify-center items-center sm:my-4 md:w-1/3 md:h-40">
+                <div
+                    class="my-2 mx-6 px-4 py-4 bgs-yellow text-center flex justify-center items-center sm:my-4 md:w-1/3 md:h-40">
                     <p class="font-thin">Онлайн поддержку </p>
                 </div>
 
-                <div class="my-2 mx-6 px-4 py-4 bgs-yellow text-center flex justify-center items-center sm:my-4 md:w-1/3 md:h-40">
+                <div
+                    class="my-2 mx-6 px-4 py-4 bgs-yellow text-center flex justify-center items-center sm:my-4 md:w-1/3 md:h-40">
                     <p class="font-thin">Диплом о прохождении “Базового курса” и диплом о прохождении курса колористики
                         Ханафиколорспигментс</p>
                 </div>
 
-                <div class="my-2 mx-6 px-4 py-4 bgs-yellow text-center flex justify-center items-center sm:my-4 md:w-1/3 md:h-40">
+                <div
+                    class="my-2 mx-6 px-4 py-4 bgs-yellow text-center flex justify-center items-center sm:my-4 md:w-1/3 md:h-40">
                     <p class="font-thin">Необходимые знания и навыки для начала самостоятеельной работы</p>
                 </div>
             </div>
@@ -335,8 +384,9 @@
             <p class="text-3xl sm:text-5xl">Остались вопросы?</p>
             <p class="pt-6 text-sm sm:text-2xl">Свяжитесь с нами и наши консультанты ответят на любые Ваши вопросы.</p>
             <div class="sm:flex sm:justify-center sm:items-start sm:mt-4">
-                <button class="w-full mt-6 px-4 py-2 rounded-lg blue-button light-indigo shadow-2xl sm:px-2 sm:mt-4 md:w-auto md:px-24">
-                    <a href="tel:+79163313534">
+                <button
+                    class="w-full mt-6 px-4 py-2 rounded-lg blue-button light-indigo shadow-2xl sm:px-2 sm:mt-4 md:w-auto md:px-24">
+                    <a href="tel:+79096232324">
                         <i class="fa fa-phone fa-2x"></i>
                         <span class="ml-1 text-xl">Позвонить</span>
                     </a>
@@ -344,7 +394,7 @@
 
                 <button
                     class="w-full mt-4 px-4 py-2 block rounded-lg green-button light-indigo shadow-2xl sm:px-2 sm:ml-2 md:w-auto md:px-4 md:ml-8">
-                    <a href="https://api.whatsapp.com/send?phone=79163313534">
+                    <a href="https://api.whatsapp.com/send?phone=79096232324">
                         <i class="fa fa-whatsapp fa-2x"></i>
                         <span class="ml-1 text-xl">Связаться по WhatsApp</span>
                     </a>
@@ -353,7 +403,8 @@
             </div>
         </section>
 
-        <section class="w-full px-4 pt-2 bg-white flex flex-col justify-center items-center sm:pt-8">
+        <section
+            class="w-full px-4 pt-2 bg-white flex flex-col justify-center items-center sm:pt-8 sm:flex-row sm:justify-aroubd">
             <div class="pt-4 leading-tight text-center">
                 <p class="font-din text-5xl light-indigo font-bold sm:text-6xl">Базовый курс</p>
                 <p class="text-xl sm:text-2xl">20 - 27 февраля 2020 г.</p>
@@ -368,8 +419,8 @@
                     и зарабатывайте <br />
                     от 100 000 рублей в месяц
                 </p>
-                <img class="" src="./img/olga-sasha-down.png">
             </div>
+            <img class="" src="./img/olga-sasha-down.png">
         </section>
 
         <section class="py-6 px-4 text-center bg-gray-100 z--2">
@@ -406,7 +457,7 @@
             <img class="px-6 bg-white sm:hidden" src="./img/br.png">
 
             <section class="w-full px-2 pt-4 pb-4 bg-white text-center">
-                <a class="text-2xl font-ral" href="tel:+79163313534">тел. +7 (916) 331-35-34</a>
+                <a class="text-2xl font-ral" href="tel:+79096232324">тел. +7 (916) 331-35-34</a>
                 <div class="pt-2 block flex  justify-center items-center">
                     <a target="_blank" href="https://vk.com/olgatpmclub">
                         <img class="pr-2" src="./img/vk.png" alt="">
@@ -433,6 +484,9 @@
             </section>
         </div>
 
+        <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/lightslider.js"></script>
         <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
         <script src="./app.js"></script>
     </div>
