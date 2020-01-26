@@ -11,421 +11,431 @@
     <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
     <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
 
-    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />                  
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/lightslider.js"></script>
-    
+
     <link href="./app.css" rel="stylesheet">
     <title>Home page</title>
 </head>
 
-<body class="w-full bg-gray-200 text-gray-900">
-
-    <header class="w-full px-10 py-4 font-semibold flex justify-around items-center bg-white leading-tight">
-        <img class="" src="https://i.ibb.co/XXJJ8rT/logo.png" alt="Logo">
-        <div class="text-2xl">Школа <br /> Ольги Ханафи <br /> и Саши Шефер</div>
-    </header>
-
-    <!-- 1 -->
-    <section class="relative w-full px-8 pt-2">
-        <img class="w-40 z--1 absolute bottom-0 right-0" src="https://i.ibb.co/zsQX33Y/olga-and-sasha-2.png">
-        <div class="pt-4 leading-tight">
-            <p class="font-din text-5xl light-indigo font-bold">Базовый курс</p>
-            <p class="text-xl">20 - 27 февраля 2020 г.</p>
-            <button class="mt-6 px-4 py-2 rounded-lg blue-button light-indigo">
-                <a href="tel:+79163313534">
-                    <i class="fa fa-phone"></i>
-                    <span class="ml-1">+7 (916) 331-35-34</span>
-                </a>
-            </button>
-
-            <button class="mt-4 px-12 py-2 block rounded-lg green-button light-indigo">
-                <a href="https://api.whatsapp.com/send?phone=79163313534">
-                    <i class="fa fa-whatsapp"></i>
-                    <span class="ml-1">Whatsapp</span>
-                </a>
-            </button>
-
-            <p class="pt-8 font-bold">
-                Научитесь <br />
-                перманентному <br />
-                макияжу за неделю
-            </p>
-
-            <p class="pt-4 pb-8 text-xs font-hairline font-semibold">
-                и зарабатывайте <br />
-                от 100 000 рублей в месяц
-            </p>
-
-        </div>
-    </section>
-    <!-- 2 -->
-    <section class="pt-6 px-4 bg-white">
-        <p class="light-indigo font-bold text-center font-din text-4xl">
-            Купить за
-            <span class="strikethrough text-lg ">100 000 руб.</span>
-            90 000 руб.
-        </p>
-        <div class=" flex justify-center items-center">
-            <button
-                class="mt-4 py-2 px-16 uppercase font-din font-bold text-2xl rounded-lg shadow-2xl font-bold focus:outline-none yellow-button light-indigo">
-                <a target="_blank" href="http://olga_tarasyuk.kassa.bizon365.ru/buy/Course">
-                    <p>Внести предоплату</p>
-                </a>
-            </button>
-        </div>
-        <div class="py-6 text-center fon-din leading-tight">
-            <p class="pt-2 font-ral">
-                Внесите предоплату до
-                <span class="font-bold">17:00 26 января,</span> <br />
-                чтобы закрепить за собой <br>
-                цену
-                <span class="font-bold">90 000 руб. на 3 дня</span>
-            </p>
-            <p class="mt-4 font-ral font-bold">
-                Обучение пройдет <br>
-                в студии Ольги Ханафи в Москве</p>
-
-        </div>
-    </section>
-
-    <!-- 3 -->
-    <section class="relative flex justify-center items-center bg-white">
-        <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" poster="./img/bg-1.jpg"
-            data-setup="{}">
-            <source src="./img/video-1.mp4" type="video/mp4" />
-            <p class="vjs-no-js">
-                To view this video please enable JavaScript, and consider upgrading to a
-                web browser that
-                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-            </p>
-        </video>
-    </section>
-
-    <!-- 4 -->
-    <section class="pt-4 px-4 text-center bg-white">
-        <p class="text-4xl font-bold leading-tight font-din">Кто поможет тебе <br> стать профессионалом?</p>
-        <p class="mt-6 leading-tight">Обучение проведут 2 ТОП-мастера, </p>
-        <p class="leading-tight">у каждого из которых опыт работы в пм больше 10 лет</p>
-        <p class="mt-4 text-3xl font-bold leading-tight font-din">Ольга Ханафи и Саша Шефер</p>
-
-        <!-- blue divs section -->
-        <div
-            class="mt-2 inline-block md:inline-flex justify-center items-center flex-row flex-wrap font-thin font-helv">
-            <div class="blue-div md:w-1/3 m-4 p-4 flex justify-center items-center shadow-lg rounded-lg">
-                <p>Эти имена известны всем,кто работает в индустрии перманентного макияжа.</p>
+<body class="w-full  text-gray-900 bg-white">
+    <div class="gray-100 z--2 xl:px-6">
+        <header
+            class="w-full px-10 py-4 font-semibold flex justify-around items-center bg-white leading-tight justify-start sm:justify-start">
+            <img class="" src="https://i.ibb.co/XXJJ8rT/logo.png" alt="Logo">
+            <div class="text-2xl sm:pl-8">Школа <br class="sm:hidden" /> Ольги Ханафи <br class="sm:hidden" /> и Саши
+                Шефер
             </div>
-            <div class="blue-div md:w-1/3 m-4 p-4 flex justify-center items-center shadow-lg rounded-lg">
-                <p>Оба мастера постоянно участвуют в разнообразных конференциях в качестве спикеров.</p>
+        </header>
+
+        <!-- 1 -->
+        <section class="relative w-full px-8 pt-2 bg-gray-100 sm:px-20 md:px-32 lg:px-64">
+            <img class="w-40  absolute bottom-0 right-0 sm:w-56 sm:mr-20 md:w-64"
+                src="https://i.ibb.co/zsQX33Y/olga-and-sasha-2.png">
+            <div class="pt-4 leading-tight sm:pt-8">
+                <p class="font-din text-5xl light-indigo font-bold sm:text-6xl">Базовый курс</p>
+                <p class="text-xl sm:text-2xl">20 - 27 февраля 2020 г.</p>
+                <button class="mt-6 px-4 py-2 rounded-lg blue-button light-indigo sm:px-6 sm:py-2">
+                    <a href="tel:+79163313534">
+                        <i class="fa fa-phone"></i>
+                        <span class="ml-1 sm:text-xl">+7 (916) 331-35-34</span>
+                    </a>
+                </button>
+
+                <button class="mt-4 px-12 py-2 block rounded-lg green-button light-indigo sm:px-18 sm:py-2">
+                    <a href="https://api.whatsapp.com/send?phone=79163313534">
+                        <i class="fa fa-whatsapp"></i>
+                        <span class="ml-1 sm:text-2xl">Whatsapp</span>
+                    </a>
+                </button>
+
+                <p class="pt-8 font-bold sm:text-2xl">
+                    Научитесь <br />
+                    перманентному <br />
+                    макияжу за неделю
+                </p>
+
+                <p class="pt-4 pb-8 text-xs font-hairline font-semibold sm:text-lg">
+                    и зарабатывайте <br />
+                    от 100 000 рублей в месяц
+                </p>
+
             </div>
-            <div class="blue-div md:w-1/3 m-4 p-4 flex justify-center items-center shadow-lg rounded-lg">Часто их
-                можно встретить в списке членов
-                судейских коллегий
-                различных
-                чемпионатов по ПМ. </div>
-            <div class="blue-div md:w-1/3 m-4 p-4 flex justify-center items-center shadow-lg rounded-lg">Так же они
-                являются производителями пигментов
-                для
-                перманентного макияжа. </div>
-            <div class="blue-div md:w-1/3 m-4 p-4 flex justify-center items-center shadow-lg rounded-lg">Они обучили
-                более 300 студентов, многие из
-                которых работают
-                в лучших студиях
-                Москвы и других городов. </div>
-            <div class="blue-div md:w-1/3 m-4 p-4 flex justify-center items-center shadow-lg rounded-lg">Их
-                мастер-классы проходят в Москве и других
-                городах России,
-                ближнего и дальнего
-                зарубежья (Казахстан, Беларусь, Германия, Нидерланды, ОАЭ и др)</div>
-        </div>
-
-    </section>
-    <!-- 5 -->
-    <section class="py-4  text-center">
-        <p class="px-6">Посмотрите, какие работы <br>
-            сделали самостоятельно <br>
-            наши студенты с прошлого потока <br>
-            сразу после обучения
-        </p>
-        <div class="slider w-full py-6">
-            <ul id="lightSlider">
-                <img src="./img/rab_1.png" />
-                <img src="./img/rab_2.png" />
-                <img src="./img/rab_3.png" />
-                <img src="./img/rab_4.png" />
-                <img src="./img/rab_5.png" />
-                <img src="./img/rab_6.png" />
-                <img src="./img/rab_7.png" />
-                <img src="./img/rab_8.png" />
-                <img src="./img/rab_9.png" />
-                <img src="./img/rab_10.png" />
-                <img src="./img/rab_11.png" />
-                <img src="./img/rab_12.png" />
-            </ul>
-        </div>
-        <p class="px-6">
-            После обучения мы остаемся на связи <br>
-            с нашими учениками, помогаем им советом, предоставляем скидки на дальнейшее повышение квалификации.
-        </p>
-    </section>
-
-    <!-- 6 -->
-    <section class="relative flex justify-center items-center bg-white">
-        <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" poster="./img/bg-1.jpg"
-            data-setup="{}">
-            <source src="./img/video-2.mp4" type="video/mp4" />
-            <p class="vjs-no-js">
-                To view this video please enable JavaScript, and consider upgrading to a
-                web browser that
-                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </section>
+        <!-- 2 -->
+        <section class="pt-6 px-4 bg-white">
+            <p class="light-indigo font-bold text-center font-din text-4xl sm:text-6xl">
+                Купить за
+                <span class="strikethrough text-lg sm:text-4xl ">100 000 руб.</span>
+                90 000 руб.
             </p>
-        </video>
-    </section>
+            <div class=" flex justify-center items-center">
+                <button
+                    class="mt-4 py-2 px-16 uppercase font-din font-bold text-2xl rounded-lg shadow-2xl font-bold focus:outline-none yellow-button light-indigo sm:text-4xl">
+                    <a target="_blank" href="http://olga_tarasyuk.kassa.bizon365.ru/buy/Course">
+                        <p>Внести предоплату</p>
+                    </a>
+                </button>
+            </div>
+            <div class="py-6 text-center fon-din leading-tight sm:text-2xl">
+                <p class="pt-2 font-ral">
+                    Внесите предоплату до
+                    <span class="font-bold">17:00 26 января,</span> <br />
+                    чтобы закрепить за собой <br>
+                    цену
+                    <span class="font-bold">90 000 руб. на 3 дня</span>
+                </p>
+                <p class="mt-4 font-ral font-bold">
+                    Обучение пройдет <br>
+                    в студии Ольги Ханафи в Москве</p>
 
-    <!-- 7 -->
-    <section class="py-8 text-center bg-white">
-        <p class="text-2xl">Программа базового курса</p>
+            </div>
+        </section>
 
-        <div class="mx-6 my-4 px-8 py-4 blue-div text-sm rounded-lg">
-            <p class="pt-2">
-                В первые 3 дня <br><br>
-                Будут проходить мастер-классы <br>
-                по четырем зонам: губы, брови, межресничка и стрелки. Мы обсудим все теоретические и практические
-                вопросы, которые понадобятся <br>
-                Вам в работе. <br>
-                <br>
-                Вы узнаете:<br>
-                <br>
-                Основы СанПина, правила асептики и антисептики<br>
-                <br>
-                Медицинские аспекты, строение <br>
-                и физиология кожи<br>
-                <br>
-                Оборудование. Виды, различия, общие знания о машинках, иглах.<br>
-                <br>
-                Основы колористики <br>
-                и пигментологии<br>
-                <br>
-                Визаж и эскизирование <br>
-                в перманентном макияже<br>
-                <br>
-                А еще мы поделимся лайфхаками, фишками и секретами, которые облегчат начало Вашего профессионального
-                пути.<br>
+        <!-- 3 -->
+        <section class="relative flex justify-center items-center bg-white">
+            <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
+                poster="./img/bg-1.jpg" data-setup="{}">
+                <source src="./img/video-1.mp4" type="video/mp4" />
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a
+                    web browser that
+                    <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                </p>
+            </video>
+        </section>
+
+        <!-- 4 -->
+        <section class="pt-4 px-4 text-center bg-white">
+            <p class="text-4xl font-bold leading-tight font-din sm:text-6xl">Кто поможет тебе <br> стать профессионалом?
             </p>
-        </div>
+            <p class="mt-6 leading-tight sm:text-lg">Обучение проведут 2 ТОП-мастера, </p>
+            <p class="leading-tight sm:text-lg">у каждого из которых опыт работы в пм больше 10 лет</p>
+            <p class="mt-4 text-3xl font-bold leading-tight font-din sm:text-5xl">Ольга Ханафи и Саша Шефер</p>
 
-        <div class="mx-6 my-4 px-8 py-4 blue-div text-sm rounded-lg">
-            <p class="pt-2 ">
-                В следующие 4 дня <br>
-                <br>
-                Мы займемся постановкой руки<br>
-                на латексе, штрих, линия.<br>
-                <br>
-                Так же, каждая из вас отработает на практике по 2 модели на трех зонах - брови, глаза и губы.
+            <!-- blue divs section -->
+            <div
+                class="mt-2 inline-block md:inline-flex justify-center items-center flex-row flex-wrap font-thin font-helv">
+                <div class="blue-div md:w-1/3 m-4 p-4 flex justify-center items-center shadow-lg rounded-lg">
+                    <p>Эти имена известны всем,кто работает в индустрии перманентного макияжа.</p>
+                </div>
+                <div class="blue-div md:w-1/3 m-4 p-4 flex justify-center items-center shadow-lg rounded-lg">
+                    <p>Оба мастера постоянно участвуют в разнообразных конференциях в качестве спикеров.</p>
+                </div>
+                <div class="blue-div md:w-1/3 m-4 p-4 flex justify-center items-center shadow-lg rounded-lg">Часто их
+                    можно встретить в списке членов
+                    судейских коллегий
+                    различных
+                    чемпионатов по ПМ. </div>
+                <div class="blue-div md:w-1/3 m-4 p-4 flex justify-center items-center shadow-lg rounded-lg">Так же они
+                    являются производителями пигментов
+                    для
+                    перманентного макияжа. </div>
+                <div class="blue-div md:w-1/3 m-4 p-4 flex justify-center items-center shadow-lg rounded-lg">Они обучили
+                    более 300 студентов, многие из
+                    которых работают
+                    в лучших студиях
+                    Москвы и других городов. </div>
+                <div class="blue-div md:w-1/3 m-4 p-4 flex justify-center items-center shadow-lg rounded-lg">Их
+                    мастер-классы проходят в Москве и других
+                    городах России,
+                    ближнего и дальнего
+                    зарубежья (Казахстан, Беларусь, Германия, Нидерланды, ОАЭ и др)</div>
+            </div>
+
+        </section>
+        <!-- 5 -->
+        <section class="py-4 flex flex-col  text-center  items-center sm:text-2xl bg-gray-100">
+            <p class="px-6">Посмотрите, какие работы <br>
+                сделали самостоятельно <br>
+                наши студенты с прошлого потока <br>
+                сразу после обучения
             </p>
-        </div>
-    </section>
+            <div class="w-full  my-6 bg-gray-600 shadow-2xl bg-gray-800">
+                <div class="max-600 slider flex justify-center items-center " 
+                style="	margin: 0 auto !important; 
+                float: none !important;">
+                    <ul id="lightSlider">
+                        <img src="./img/rab_1.png" />
+                        <img src="./img/rab_2.png" />
+                        <img src="./img/rab_3.png" />
+                        <img src="./img/rab_4.png" />
+                        <img src="./img/rab_5.png" />
+                        <img src="./img/rab_6.png" />
+                        <img src="./img/rab_7.png" />
+                        <img src="./img/rab_8.png" />
+                        <img src="./img/rab_9.png" />
+                        <img src="./img/rab_10.png" />
+                        <img src="./img/rab_11.png" />
+                        <img src="./img/rab_12.png" />
+                    </ul>
+                </div>
+            </div>
+            <p class="px-6 sm:mt-20">
+                После обучения мы остаемся на связи <br>
+                с нашими учениками, помогаем им советом, предоставляем скидки на дальнейшее повышение квалификации.
+            </p>
+        </section>
 
-    <section class="py-10">
-        <p class="text-center text-2xl">Этот курс для тех, кто...</p>
-        <div class="mt-8 px-6">
-            <div class="flex justify-center items-center">
-                <img src="./img/roog.png">
-                <p class="px-2">
-                    Уже работает в Beauty индустрии и хочет расти
-                    в других направлениях
+        <!-- 6 -->
+        <section class="relative flex justify-center items-center bg-white sm:mt-12">
+            <video id="my-video" class="video-js" controls preload="auto" width="640" height="264"
+                poster="./img/bg-1.jpg" data-setup="{}">
+                <source
+                    src="https://67vod-adaptive.akamaized.net/exp=1579993771~acl=%2F387194266%2F%2A~hmac=718d8c7dc071ef906575c5fc7fb8d8f234c86e5924fce730d017553467e3b8a2/387194266/sep/video/1632559304/chop/segment-1.m4s"
+                    type="video/mp4" />
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a
+                    web browser that
+                    <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                </p>
+            </video>
+        </section>
+
+        <!-- 7 -->
+        <section class="py-8 text-center bg-white ">
+            <p class="text-2xl">Программа базового курса</p>
+            <div class="my-4 py-4 text-sm rounded-lg sm:flex sm:justify-around">
+                <p class="mx-6 my-4 py-4 px-4 blue-div text-sm rounded-lg sm:mr-2 sm:w-1/3 sm:mx-20 ">
+                    В первые 3 дня <br><br>
+                    Будут проходить мастер-классы <br>
+                    по четырем зонам: губы, брови, межресничка и стрелки. Мы обсудим все теоретические и практические
+                    вопросы, которые понадобятся <br>
+                    Вам в работе. <br>
+                    <br>
+                    Вы узнаете:<br>
+                    <br>
+                    Основы СанПина, правила асептики и антисептики<br>
+                    <br>
+                    Медицинские аспекты, строение <br>
+                    и физиология кожи<br>
+                    <br>
+                    Оборудование. Виды, различия, общие знания о машинках, иглах.<br>
+                    <br>
+                    Основы колористики <br>
+                    и пигментологии<br>
+                    <br>
+                    Визаж и эскизирование <br>
+                    в перманентном макияже<br>
+                    <br>
+                    А еще мы поделимся лайфхаками, фишками и секретами, которые облегчат начало Вашего профессионального
+                    пути.<br>
+                </p>
+                <p class="mt-4 mx-6 my-4 py-4 px-4 blue-div text-sm rounded-lg sm:ml-2 sm:w-1/3 sm:mx-20">
+                    В следующие 4 дня <br>
+                    <br>
+                    Мы займемся постановкой руки<br>
+                    на латексе, штрих, линия.<br>
+                    <br>
+                    Так же, каждая из вас отработает на практике по 2 модели на трех зонах - брови, глаза и губы.
                 </p>
             </div>
-            <div class="mt-6 flex justify-center items-center">
-                <img src="./img/bag.png">
-                <p class="px-2">
-                    Хочет больше
-                    зарабатывать
+        </section>
+
+        <section class="py-10 bg-gray-100">
+            <p class="text-center text-2xl sm:text-4xl">Этот курс для тех, кто...</p>
+            <div
+                class="mt-8 px-6 sm:flex sm:flex-col sm:justify-center sm:items-baseline sm:px-20 sm:text-xl md:flex-row md:justify-between">
+                <div class="flex justify-center items-center md:flex-grow-0 md:flex-shronk-0">
+                    <img src="./img/roog.png">
+                    <p class="px-2 ">
+                        Уже работает в Beauty индустрии и хочет расти
+                        в других направлениях
+                    </p>
+                </div>
+                <div class="mt-6 flex justify-center items-center md:flex-grow-0 md:flex-shronk-0">
+                    <img src="./img/bag.png">
+                    <p class="px-2">
+                        Хочет больше
+                        зарабатывать
+                    </p>
+                </div>
+                <div class="mt-6 flex justify-center items-center md:flex-grow-0 md:flex-shronk-0">
+                    <img src="./img/tag.png">
+                    <p class="px-2">
+                        Мечтает
+                        работать на себя
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-6 bg-white sm:flex sm:flex-col sm:justify-center sm:items-center">
+            <p class="px-2 text-center text-xl font-bold sm:text-4xl">Что наши студенты получают
+                после окончания курсов</p>
+            <img class="pt-12 sm:w-full" src="./img/products.png">
+
+            <div class="mx-6 px-4 py-4 bgs-yellow text-center flex justify-center items-center sm:text-xl">
+                <p class="font-thin">В стоимость курса входит стартовый набор, с которым можно сразу начинать работать.
                 </p>
             </div>
-            <div class="mt-6 flex justify-center items-center">
-                <img src="./img/tag.png">
-                <p class="px-2">
-                    Мечтает
-                    работать на себя
+
+
+            <div class="mx-6 px-4 py-4 sm:text-xl">
+                <p>В который входит:</p>
+
+                <div class="pt-4 flex justify-start items-baseline">
+                    <img src="./img/arrow.png">
+                    <p class="pl-4">Аппарат для перманентного макияжа Mast </p>
+                </div>
+
+                <div class="pt-4 flex justify-start items-baseline">
+                    <img src="./img/arrow.png">
+                    <p class="pl-4">Блок питания Dragonhawk </p>
+                </div>
+
+                <div class="pt-4 flex justify-start items-baseline">
+                    <img src="./img/arrow.png">
+                    <p class="pl-4">Упаковка картриджей </p>
+                </div>
+
+                <div class="pt-4 flex justify-start items-baseline">
+                    <img src="./img/arrow.png">
+                    <p class="pl-4">Бандажная лента </p>
+                </div>
+
+                <div class="pt-4 flex justify-start items-baseline">
+                    <img src="./img/arrow.png">
+                    <p class="pl-4">Первичная и вторичная анестезия </p>
+                </div>
+                <div class="pt-4 flex justify-start items-baseline">
+                    <img src="./img/arrow.png">
+                    <p class="pl-4">Карандаши для отрисовки эскиза</p>
+                </div>
+
+                <div class="pt-4 flex justify-start items-baseline">
+                    <img src="./img/arrow.png">
+                    <p class="pl-4">Пигменты для бровей и губ </p>
+                </div>
+            </div>
+
+            <div class="text-sm sm:text-lg md:flex md:flex-wrap md:justify-center md:items-center">
+                <div class="my-2 mx-6 px-4 py-4 bgs-yellow text-center flex justify-center items-center sm:my-4 md:w-1/3 md:h-40">
+                    <p class="font-thin">6 работ в портфолио</p>
+                </div>
+
+                <div class="my-2 mx-6 px-4 py-4 bgs-yellow text-center flex justify-center items-center sm:my-4 md:w-1/3 md:h-40">
+                    <p class="font-thin">Онлайн поддержку </p>
+                </div>
+
+                <div class="my-2 mx-6 px-4 py-4 bgs-yellow text-center flex justify-center items-center sm:my-4 md:w-1/3 md:h-40">
+                    <p class="font-thin">Диплом о прохождении “Базового курса” и диплом о прохождении курса колористики
+                        Ханафиколорспигментс</p>
+                </div>
+
+                <div class="my-2 mx-6 px-4 py-4 bgs-yellow text-center flex justify-center items-center sm:my-4 md:w-1/3 md:h-40">
+                    <p class="font-thin">Необходимые знания и навыки для начала самостоятеельной работы</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="px-6 py-6 text-center bg-gray-100">
+            <p class="text-3xl sm:text-5xl">Остались вопросы?</p>
+            <p class="pt-6 text-sm sm:text-2xl">Свяжитесь с нами и наши консультанты ответят на любые Ваши вопросы.</p>
+            <div class="sm:flex sm:justify-center sm:items-start sm:mt-4">
+                <button class="w-full mt-6 px-4 py-2 rounded-lg blue-button light-indigo shadow-2xl sm:px-2 sm:mt-4 md:w-auto md:px-24">
+                    <a href="tel:+79163313534">
+                        <i class="fa fa-phone fa-2x"></i>
+                        <span class="ml-1 text-xl">Позвонить</span>
+                    </a>
+                </button>
+
+                <button
+                    class="w-full mt-4 px-4 py-2 block rounded-lg green-button light-indigo shadow-2xl sm:px-2 sm:ml-2 md:w-auto md:px-4 md:ml-8">
+                    <a href="https://api.whatsapp.com/send?phone=79163313534">
+                        <i class="fa fa-whatsapp fa-2x"></i>
+                        <span class="ml-1 text-xl">Связаться по WhatsApp</span>
+                    </a>
+                </button>
+
+            </div>
+        </section>
+
+        <section class="w-full px-4 pt-2 bg-white flex flex-col justify-center items-center sm:pt-8">
+            <div class="pt-4 leading-tight text-center">
+                <p class="font-din text-5xl light-indigo font-bold sm:text-6xl">Базовый курс</p>
+                <p class="text-xl sm:text-2xl">20 - 27 февраля 2020 г.</p>
+
+
+                <p class="pt-8 text-2xl font-bold sm:text-3xl">
+                    Научитесь перманентному <br />
+                    макияжу за неделю
+                </p>
+
+                <p class="pt-2 pb-8  font-hairline font-semibold text-gray-800 sm:text-lg sm:pt-4">
+                    и зарабатывайте <br />
+                    от 100 000 рублей в месяц
+                </p>
+                <img class="" src="./img/olga-sasha-down.png">
+            </div>
+        </section>
+
+        <section class="py-6 px-4 text-center bg-gray-100 z--2">
+            <p class="light-indigo font-bold font-din text-3xl sm:text-5xl">
+                Купить за
+                <span class="strikethrough text-sm sm:text-3xl">100 000 руб.</span>
+                90 000 руб.
+            </p>
+            <div class=" flex justify-center items-center">
+                <button
+                    class="mt-4 py-2 px-16 uppercase font-din font-bold text-2xl rounded-lg shadow-2xl font-bold focus:outline-none yellow-button light-indigo sm:text-3xl">
+                    <a target="_blank" href="http://olga_tarasyuk.kassa.bizon365.ru/buy/Course">
+                        <p>Внести предоплату</p>
+                    </a>
+                </button>
+            </div>
+            <div class="py-6 text-center font-din leading-tight">
+                <p class="pt-2 font-ral sm:text-2xl">
+                    Внесите предоплату до
+                    <span class="font-bold">17:00 26 января,</span> <br />
+                    чтобы закрепить за собой <br>
+
+                    <span class="font-bold">цену 90 000 руб. на 3 дня</span>
                 </p>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="py-6 bg-white">
-        <p class="px-2 text-center text-xl font-bold">Что наши студенты получают
-            после окончания курсов</p>
-        <img class="pt-12" src="./img/products.png">
+        <div class="flex flex-col justify-center items-center sm:flex-row">
+            <section class="w-full px-10 py-4 font-semibold flex justify-start items-center bg-white leading-tight">
+                <img class="" src="https://i.ibb.co/XXJJ8rT/logo.png" alt="Logo">
+                <div class="text-2xl pl-6">Школа <br /> Ольги Ханафи <br /> и Саши Шефер</div>
+            </section>
 
-        <div class="mx-6 px-4 py-4 bgs-yellow text-center flex justify-center items-center">
-            <p class="font-thin">В стоимость курса входит стартовый набор, с которым можно сразу начинать работать. </p>
-        </div>
+            <img class="px-6 bg-white sm:hidden" src="./img/br.png">
 
-
-        <div class="mx-6 px-4 py-4">
-            <p>В который входит:</p>
-
-            <div class="pt-4 flex justify-start items-baseline">
-                <img src="./img/arrow.png">
-                <p class="pl-4">Аппарат для перманентного макияжа Mast </p>
-            </div>
-
-            <div class="pt-4 flex justify-start items-baseline">
-                <img src="./img/arrow.png">
-                <p class="pl-4">Блок питания Dragonhawk </p>
-            </div>
-
-            <div class="pt-4 flex justify-start items-baseline">
-                <img src="./img/arrow.png">
-                <p class="pl-4">Упаковка картриджей </p>
-            </div>
-
-            <div class="pt-4 flex justify-start items-baseline">
-                <img src="./img/arrow.png">
-                <p class="pl-4">Бандажная лента </p>
-            </div>
-
-            <div class="pt-4 flex justify-start items-baseline">
-                <img src="./img/arrow.png">
-                <p class="pl-4">Первичная и вторичная анестезия </p>
-            </div>
-            <div class="pt-4 flex justify-start items-baseline">
-                <img src="./img/arrow.png">
-                <p class="pl-4">Карандаши для отрисовки эскиза</p>
-            </div>
-
-            <div class="pt-4 flex justify-start items-baseline">
-                <img src="./img/arrow.png">
-                <p class="pl-4">Пигменты для бровей и губ </p>
-            </div>
-        </div>
-
-        <div class="text-sm">
-            <div class="my-2 mx-6 px-4 py-4 bgs-yellow text-center flex justify-center items-center">
-                <p class="font-thin">6 работ в портфолио</p>
-            </div>
-
-            <div class="my-2 mx-6 px-4 py-4 bgs-yellow text-center flex justify-center items-center">
-                <p class="font-thin">Онлайн поддержку </p>
-            </div>
-
-            <div class="my-2 mx-6 px-4 py-4 bgs-yellow text-center flex justify-center items-center">
-                <p class="font-thin">Диплом о прохождении “Базового курса” и диплом о прохождении курса колористики
-                    Ханафиколорспигментс</p>
-            </div>
-
-            <div class="my-2 mx-6 px-4 py-4 bgs-yellow text-center flex justify-center items-center">
-                <p class="font-thin">Необходимые знания и навыки для начала самостоятеельной работы</p>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="px-6 py-6 text-center">
-        <p class="text-3xl">Остались вопросы?</p>
-        <p class="pt-6 text-sm">Свяжитесь с нами и наши консультанты ответят на любые Ваши вопросы.</p>
-
-        <button class="w-full mt-6 px-4 py-2 rounded-lg blue-button light-indigo shadow-2xl">
-            <a href="tel:+79163313534">
-                <i class="fa fa-phone fa-2x"></i>
-                <span class="ml-1 text-xl">Позвонить</span>
-            </a>
-        </button>
-
-        <button class="w-full mt-4 px-4 py-2 block rounded-lg green-button light-indigo shadow-2xl">
-            <a href="https://api.whatsapp.com/send?phone=79163313534">
-                <i class="fa fa-whatsapp fa-2x"></i>
-                <span class="ml-1 text-xl">Связаться по WhatsApp</span>
-            </a>
-        </button>
-
-    </section>
-
-    <section class="w-full px-4 pt-2 bg-white text-center">
-        <div class="pt-4 leading-tight">
-            <p class="font-din text-5xl light-indigo font-bold">Базовый курс</p>
-            <p class="text-xl">20 - 27 февраля 2020 г.</p>
-
-
-            <p class="pt-8 text-2xl font-bold">
-                Научитесь перманентному <br />
-                макияжу за неделю
-            </p>
-
-            <p class="pt-2 pb-8  font-hairline font-semibold text-gray-800">
-                и зарабатывайте <br />
-                от 100 000 рублей в месяц
-            </p>
-            <img class="" src="./img/olga-sasha-down.png">
+            <section class="w-full px-2 pt-4 pb-4 bg-white text-center">
+                <a class="text-2xl font-ral" href="tel:+79163313534">тел. +7 (916) 331-35-34</a>
+                <div class="pt-2 block flex  justify-center items-center">
+                    <a target="_blank" href="https://vk.com/olgatpmclub">
+                        <img class="pr-2" src="./img/vk.png" alt="">
+                    </a>
+                    <a target="_blank" href="https://www.facebook.com/Olga.Tarasyuk.Studio/">
+                        <img class="pr-2" src="./img/facebook.png" alt="">
+                    </a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCqhtWQScPfftvQMon1VroSQ">
+                        <img class="pr-2" src="./img/youtube.png" alt="">
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/olgatarasyuk_pm/">
+                        <img class="pr-2" src="./img/instagrsm.png" alt="">
+                    </a>
+                </div>
+            </section>
 
         </div>
-    </section>
+        <div class="flex flex-col justify-center items-center sm:flex-row">
 
-    <section class="py-6 px-4 text-center">
-        <p class="light-indigo font-bold font-din text-3xl">
-            Купить за
-            <span class="strikethrough text-sm">100 000 руб.</span>
-            90 000 руб.
-        </p>
-        <div class=" flex justify-center items-center">
-            <button
-                class="mt-4 py-2 px-16 uppercase font-din font-bold text-2xl rounded-lg shadow-2xl font-bold focus:outline-none yellow-button light-indigo">
-                <a target="_blank" href="http://olga_tarasyuk.kassa.bizon365.ru/buy/Course">
-                    <p>Внести предоплату</p>
-                </a>
-            </button>
+            <img class="pt-2 px-6 bg-white sm:hidden" src="./img/br.png">
+
+            <section class="py-6 px-4 bg-white text-sm text-center">
+                <p>Москва, метро Электрозаводская, Барабанный переулок д.4, стр.5. </p>
+            </section>
         </div>
-        <div class="py-6 text-center font-din leading-tight">
-            <p class="pt-2 font-ral">
-                Внесите предоплату до
-                <span class="font-bold">17:00 26 января,</span> <br />
-                чтобы закрепить за собой <br>
 
-                <span class="font-bold">цену 90 000 руб. на 3 дня</span>
-            </p>
-        </div>
-    </section>
-
-    <section class="w-full px-10 py-4 font-semibold flex justify-around items-center bg-white leading-tight">
-        <img class="" src="https://i.ibb.co/XXJJ8rT/logo.png" alt="Logo">
-        <div class="text-2xl">Школа <br /> Ольги Ханафи <br /> и Саши Шефер</div>
-    </section>
-
-    <img class="px-6 bg-white" src="./img/br.png">
-
-    <section class="w-full px-2 pt-4 pb-4 bg-white text-center">
-        <a class="text-2xl font-ral" href="tel:+79163313534">тел. +7 (916) 331-35-34</a>
-        <div class="pt-2 block md:hidden flex  justify-center items-F">
-            <a target="_blank" href="https://vk.com/olgatpmclub">
-                <img class="pr-2" src="./img/vk.png" alt="">
-            </a>
-            <a target="_blank" href="https://www.facebook.com/Olga.Tarasyuk.Studio/">
-                <img class="pr-2" src="./img/facebook.png" alt="">
-            </a>
-            <a target="_blank" href="https://www.youtube.com/channel/UCqhtWQScPfftvQMon1VroSQ">
-                <img class="pr-2" src="./img/youtube.png" alt="">
-            </a>
-            <a target="_blank" href="https://www.instagram.com/olgatarasyuk_pm/">
-                <img class="pr-2" src="./img/instagrsm.png" alt="">
-            </a>
-        </div>
-    </section>
-
-    <img class="pt-2 px-6 bg-white" src="./img/br.png">
-
-    <section class="py-6 px-4 bg-white text-sm text-center">
-        <p>Москва, метро Электрозаводская, Барабанный переулок д.4, стр.5. </p>
-    </section>
-
-
-    <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
-    <script src="./app.js"></script>
-
+        <script src="https://vjs.zencdn.net/7.6.6/video.js"></script>
+        <script src="./app.js"></script>
+    </div>
 </body>
 
 </html>
-
-<style>
-
-</style>
